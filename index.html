@@ -277,13 +277,13 @@ cargarDatos();
 setInterval(cargarDatos, 5*60*1000);
 
 // Mapa
-const map = L.map('map').setView([-41.4990, -72.9881], 13);
+const map = L.map('map').setView([-41.91093767973031, -73.13828997867896], 13);
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: '&copy; OpenStreetMap contributors'
 }).addTo(map);
 
-L.marker([-41.4990, -72.9881]).addTo(map)
-  .bindPopup('📍 Club Náutico Reloncaví');
+L.marker([-41.91093767973031, -73.13828997867896,]).addTo(map)
+  .bindPopup('📍 Alcaldía de mar Isla Tabón ');
 </script>
 </body>
 </html>
